@@ -14,7 +14,7 @@ class blackwhitegame
 		char y=sc.next().charAt(0);
                 
                 System.out.println("enter your choice user3");
-		char z=sc.next().char(0);
+		char z=sc.next().charAt(0);
 
 		if(x==1)
 		{
@@ -40,52 +40,6 @@ class blackwhitegame
 			}
 		}
                 
-                if(y==1)
-		{
-			if(x==1 && z==1)
-			{
-				System.out.println("match drop");
-			}
-			else if(x==2 && z==2)
-			{
-				System.out.println("user1 won match");
-			}
-			else if(x==2 && z==1)
-			{
-				System.out.println("user1 won match");
-			}
-                        else if(x==1 && z==2)
-			{
-				System.out.println("user3 won match");
-			}
-			else
-			{
-				System.out.println("open your eyes");
-			}
-		}
-
-                if(z==1)
-		{
-			if(x==1 && y==1)
-			{
-				System.out.println("match drop");
-			}
-			else if(x==2 && y==2)
-			{
-				System.out.println("user3 won match");
-			}
-			else if(x==2 && y==1)
-			{
-				System.out.println("user3 won match");
-			}
-                        else if(x==1 && y==2)
-			{
-				System.out.println("user2 won match");
-			}
-			else
-			{
-				System.out.println("open your eyes");
-			}
-		}
+               
 }
 }
